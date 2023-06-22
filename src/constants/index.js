@@ -4,7 +4,6 @@ import {
   fullstack,
   web,
   javascript,
-  typescript,
   html,
   css,
   aws,
@@ -13,12 +12,10 @@ import {
   spring,
   sql,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
   unitedNations,
   lokyata,
@@ -26,7 +23,6 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [{
@@ -101,10 +97,10 @@ const technologies = [{
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
   {
     name: "Node JS",
     icon: nodejs,
@@ -116,8 +112,7 @@ const technologies = [{
   {
     name: "git",
     icon: git,
-  }
-
+  },
 ];
 
 const experiences = [{
@@ -157,10 +152,10 @@ const experiences = [{
       "System Design: Participated in design and completed the Limited Time Promotion Buy Now business requirement. Leveraged Redis and RocketMQ to enhance performance, increasing query per second (QPS) from 500 to 50,000.",
       "Redis: Implemented cache preheating for active promotions, reduced server response time by 40% during peak trafﬁc periods. Completed lock and revert inventory service through Redis and Lua script.",
       "Microservices: Led the Spliting of order service into promotion and order microservices according to DDD(Domain Driving Design) principles.",
-      "Queue Management and Database Operations: Managed peak-load by asynchronously creating orders using RocketMQ, ensuring smooth order processing during high-demand periods. Implemented \"Pay-CheckCancel\" by consuming delay message. Optimized optimistic-lock of updating inventory in MySQL database.",
-      "REST APIs: Implemented secure payment gateways and integrated third-party APIs to enable seamless order transactions."
+      'Queue Management and Database Operations: Managed peak-load by asynchronously creating orders using RocketMQ, ensuring smooth order processing during high-demand periods. Implemented "Pay-CheckCancel" by consuming delay message. Optimized optimistic-lock of updating inventory in MySQL database.',
+      "REST APIs: Implemented secure payment gateways and integrated third-party APIs to enable seamless order transactions.",
     ],
-  }
+  },
 ];
 
 const testimonials = [{
@@ -169,7 +164,7 @@ const testimonials = [{
     designation: "a",
     company: "a",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
-  }
+  },
   // ,
   // {
   //   testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
