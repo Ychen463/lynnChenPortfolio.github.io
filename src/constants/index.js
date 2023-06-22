@@ -7,6 +7,11 @@ import {
   typescript,
   html,
   css,
+  aws,
+  kubernetes,
+  python,
+  spring,
+  sql,
   reactjs,
   redux,
   tailwind,
@@ -15,11 +20,8 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
   unitedNations,
   lokyata,
-  tesla,
   shopify,
   carrent,
   jobit,
@@ -60,6 +62,26 @@ const services = [{
 ];
 
 const technologies = [{
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+  {
+    name: "kubernetes",
+    icon: kubernetes,
+  },
+  {
+    name: "aws",
+    icon: aws,
+  },
+  {
+    name: "sql",
+    icon: sql,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -72,16 +94,12 @@ const technologies = [{
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Spring",
+    icon: spring,
   },
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -96,21 +114,10 @@ const technologies = [{
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  }
+
 ];
 
 const experiences = [{
@@ -140,19 +147,20 @@ const experiences = [{
       "Developed interactive dashboards in Tableau for multiple financial portfolios to enable customers to access real-time data.",
     ],
   },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // }
+  {
+    title: "Software Developer Intern",
+    company_name: "SkillUpIT",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "Apr 2023 - Sep 2023",
+    points: [
+      "System Design: Participated in design and completed the Limited Time Promotion Buy Now business requirement. Leveraged Redis and RocketMQ to enhance performance, increasing query per second (QPS) from 500 to 50,000.",
+      "Redis: Implemented cache preheating for active promotions, reduced server response time by 40% during peak trafﬁc periods. Completed lock and revert inventory service through Redis and Lua script.",
+      "Microservices: Led the Spliting of order service into promotion and order microservices according to DDD(Domain Driving Design) principles.",
+      "Queue Management and Database Operations: Managed peak-load by asynchronously creating orders using RocketMQ, ensuring smooth order processing during high-demand periods. Implemented \"Pay-CheckCancel\" by consuming delay message. Optimized optimistic-lock of updating inventory in MySQL database.",
+      "REST APIs: Implemented secure payment gateways and integrated third-party APIs to enable seamless order transactions."
+    ],
+  }
 ];
 
 const testimonials = [{

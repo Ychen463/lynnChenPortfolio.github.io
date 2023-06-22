@@ -12,6 +12,11 @@ import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
+import aws from "./tech/aws.png";
+import kubernetes from "./tech/kubernetes.png";
+import python from "./tech/python.png";
+import spring from "./tech/spring.png";
+import sql from "./tech/sql.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
@@ -49,6 +54,11 @@ export {
   javascript,
   mongodb,
   nodejs,
+  aws,
+  kubernetes,
+  python,
+  spring,
+  sql,
   reactjs,
   redux,
   tailwind,
