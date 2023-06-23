@@ -2,6 +2,14 @@ import React from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
+import { Container } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLinkedin,
+  faGithub,
+  faMedium,
+} from "@fortawesome/free-brands-svg-icons";
+
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -55,7 +63,19 @@ const About = () => {
         deployment using tools such as Docker and Kubernetes. Let's work
         together to bring your ideas to life!
       </motion.p>
-
+      <Container>
+        <div className="singleCol social-media-icons-white place-content-start space-x-4">
+          <a href="https://www.linkedin.com/in/ny-yanlin-chen/">
+            <FontAwesomeIcon icon={faLinkedin} />
+          </a>
+          <a href="https://github.com/Ychen463">
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+          <a href="https://yanlinc.medium.com/">
+            <FontAwesomeIcon icon={faMedium} />
+          </a>
+        </div>
+      </Container>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
