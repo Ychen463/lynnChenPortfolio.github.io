@@ -65,13 +65,13 @@ const About = () => {
       </motion.p>
       <Container>
         <div className="singleCol social-media-icons-white place-content-start space-x-4">
-          <a href="https://www.linkedin.com/in/ny-yanlin-chen/">
+          <a href="https://www.linkedin.com/in/ny-yanlin-chen/" target="_blank">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a href="https://github.com/Ychen463">
+          <a href="https://github.com/Ychen463" target="_blank">
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href="https://yanlinc.medium.com/">
+          <a href="https://yanlinc.medium.com/" target="_blank">
             <FontAwesomeIcon icon={faMedium} />
           </a>
         </div>
